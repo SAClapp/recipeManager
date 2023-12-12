@@ -21,6 +21,22 @@
             //alert("H2 Works");
             window.location = ("index.html");
         });
+        loadImages();
+    }
+
+    function loadImages(){
+        let recipeImage = $("#recipeImage");
+let imageSrcs = [
+"images/chicken.jpg",
+"images/chili.jpg",
+"images/cookies.jpg",
+"images/meatballs/jpg",
+"images/pizza.jpg"
+]
+for (let x = 0; x < imageSrcs.length; x++) {
+    let optionObj = $("<option>", { text: imageSrcs[x], value: imageSrcs[x]});
+    recipeImage.append(optionObj);
+}
     }
     </script>
 </head>
