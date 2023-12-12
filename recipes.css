@@ -1,0 +1,142 @@
+/* SCSS Document */
+body {
+  background-color: #E7651C;
+  text-align: center;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.192);
+  color: rgb(27, 26, 26);
+}
+
+header {
+  background-color: #D97F15;
+  margin-top: 0px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid black 2px;
+  width: 600px;
+  margin: auto;
+}
+
+#formContainer {
+  background-color: #D9D9D9;
+  width: 367px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+#formContainer form {
+  width: 300px;
+  margin: auto;
+  padding-left: 2px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-radius: 5px;
+}
+#formContainer form input[type=number] {
+  width: 40px;
+}
+#formContainer h3 {
+  background-color: #C3591D;
+  padding: 10px;
+  color: white;
+  width: 367px;
+  margin: auto;
+  text-align: left;
+  padding-left: 25px;
+}
+
+nav {
+  background-color: #D9D9D9;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  width: 367px;
+  margin: auto;
+}
+
+#buttonContainer {
+  background-color: #7E7C7C;
+  width: 254px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#navHeader {
+  background-color: #D97F15;
+  padding: 10px;
+  color: white;
+  border: solid black 2px;
+  width: 367px;
+  margin: auto;
+}
+
+#homeButton {
+  background-color: #D97F15;
+  padding: 10px;
+  color: white;
+  border: solid black 2px;
+  width: 367px;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+#recipeData {
+  width: 367px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(214, 224, 228);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#recipeData h2 {
+  text-align: center;
+}
+
+#recipeSelector {
+  background-color: #7E7C7C;
+  padding: 10px;
+  width: 254px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#recipeSelector label {
+  color: aliceblue;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 400px) {
+  #recipeData {
+    width: 350px;
+    margin-top: 5px;
+    background-color: rgb(214, 224, 228);
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    margin-right: 2px;
+  }
+  #recipeData h2 {
+    text-align: left;
+  }
+  header {
+    width: 367px;
+  }
+}/*# sourceMappingURL=recipes.css.map */
